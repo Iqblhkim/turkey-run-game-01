@@ -1,0 +1,19 @@
+/* Turkey Run: Thanksgiving Escape — page + canvas styling. */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f7c873;
+  overflow: hidden;
+}
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+  cursor: pointer;
+  image-rendering: auto;
+}
